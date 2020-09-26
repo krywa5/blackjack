@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section id="blackJack">
+        <header>
+            <h1>BlackJack</h1>
+        </header>
+        <div id="message"></div>
+        <div id="table">
+            <h2>Twoje karty</h2>
+            <div id="playerCards"></div>
+            <h2>Karty krupiera</h2>
+            <div id="dealerCards"></div>
+        </div>
+        <div id="points">
+            Punkty gracza <div id="playerPoints"></div>
+            Punkty krupiera <div id="dealerPoints"></div>
+        </div>
+        <div id="buttons">
+            <button id="hit">Dobierz karty</button>
+            <button id="stop">Zostaję</button>
+        </div>
+    </section>
+
+    <script src="/app/Game.js" type="module"></script>
+</body>
+
+</html>
